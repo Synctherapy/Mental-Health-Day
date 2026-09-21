@@ -141,6 +141,9 @@ export default function Footer() {
                 <Link href="/contact-us" className="hover:text-[#56B259] transition-colors">Contact Us</Link>
               </li>
               <li>
+                <Link href="/write-for-us" className="hover:text-[#56B259] transition-colors text-emerald-400 font-medium">Write For Us</Link>
+              </li>
+              <li>
                 <Link href="/disclosure" className="hover:text-[#56B259] transition-colors">Medical Disclaimer</Link>
               </li>
               <li>
