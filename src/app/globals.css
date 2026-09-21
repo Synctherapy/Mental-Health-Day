@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#F8FAF8] text-[#5F695F] font-sans antialiased selection:bg-[#56B259] selection:text-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-[#181E19] font-bold tracking-tight font-sans;
+  }
+}
+
+.green-divider {
+  @apply w-12 h-1 bg-[#56B259] rounded-full my-3;
+}
+
+/* Typography styles for WordPress articles */
+.prose-mental {
+  @apply text-[#5F695F] leading-relaxed text-lg font-sans;
+}
+
+.prose-mental h2 {
+  @apply text-2xl sm:text-3xl font-bold text-[#181E19] mt-10 mb-4 tracking-tight scroll-mt-24;
+}
+
+.prose-mental h3 {
+  @apply text-xl sm:text-2xl font-bold text-[#181E19] mt-8 mb-3 scroll-mt-24;
+}
+
+.prose-mental p {
+  @apply mb-6 leading-relaxed;
+}
+
+.prose-mental ul, .prose-mental ol {
+  @apply mb-6 pl-6 space-y-2;
+}
+
+.prose-mental ul {
+  @apply list-disc;
+}
+
+.prose-mental ol {
+  @apply list-decimal;
+}
+
+.prose-mental li {
+  @apply leading-relaxed text-[#5F695F];
+}
+
+.prose-mental blockquote {
+  @apply border-l-4 border-[#56B259] pl-5 py-2 my-6 italic text-[#181E19] bg-[#EBF7EC]/60 rounded-r-xl;
+}
+
+.prose-mental img {
+  @apply rounded-2xl shadow-sm my-8 w-full max-h-[520px] object-cover;
+}
+
+.prose-mental a {
+  @apply text-[#56B259] underline decoration-[#56B259]/40 hover:decoration-[#56B259] transition-colors font-semibold;
+}
+
+.prose-mental strong {
+  @apply text-[#181E19] font-bold;
+}
