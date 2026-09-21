@@ -10,7 +10,7 @@ interface PostCardProps {
 }
 
 export default function PostCard({ post, featured = false }: PostCardProps) {
-  const imageSrc = post.image || '/images/first-emdr-session.webp';
+  const imageSrc = post.image || '/images/first-emdr-session.jpg';
 
   return (
     <article className="group bg-white rounded-2xl overflow-hidden border border-[#E8ECE8] shadow-2xs hover:shadow-md hover:border-[#56B259] transition-all duration-300 flex flex-col h-full">

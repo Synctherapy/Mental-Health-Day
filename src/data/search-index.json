@@ -4,6 +4,7 @@
     "slug": "what-happens-in-first-emdr-session",
     "category": "Mental Health",
     "excerpt": "Wondering what happens in your first EMDR session? Discover what to expect during Phase 1 history-taking, Phase 2 grounding resourcing, and why eye movements rarely start on day one.",
+    "image": "/images/first-emdr-session.jpg",
     "type": "article"
   },
   {
@@ -11,6 +12,7 @@
     "slug": "can-you-do-emdr-on-yourself-at-home",
     "category": "Mental Health",
     "excerpt": "Can you do EMDR on yourself at home? Discover what licensed trauma therapists say about DIY EMDR, the risks of self-reprocessing, and safe bilateral grounding techniques.",
+    "image": "/images/can-you-do-emdr-at-home.jpg",
     "type": "article"
   },
   {
@@ -18,6 +20,7 @@
     "slug": "emdr-vs-cbt",
     "category": "Mental Health",
     "excerpt": "EMDR vs CBT: Compare top-down cognitive restructuring with bottom-up bilateral reprocessing. Discover which therapy works faster for anxiety, trauma, and PTSD in 2026.",
+    "image": "/images/emdr-vs-cbt.jpg",
     "type": "article"
   },
   {
@@ -25,6 +28,7 @@
     "slug": "dangers-of-emdr-therapy",
     "category": "Mental Health",
     "excerpt": "An evidence-based guide on the dangers of EMDR therapy, side effects, contraindications, and the 5-step clinical protocol to recover from an EMDR hangover.",
+    "image": "/images/dangers-of-emdr.jpg",
     "type": "article"
   },
   {
@@ -32,6 +36,7 @@
     "slug": "signs-your-body-is-releasing-trauma",
     "category": "Mental Health",
     "excerpt": "Discover the verified somatic signs your body is releasing trauma, including neurogenic tremors, temperature shifts, and polyvagal autonomic regulation.",
+    "image": "/wp-content/uploads/2025/01/Signs-Your-Body-Is-Releasing-Trauma-Physical-and-Emotional-Indicators-to-Watch-For.jpg",
     "type": "article"
   },
   {
@@ -39,6 +44,7 @@
     "slug": "brainspotting-vs-emdr",
     "category": "Mental Health",
     "excerpt": "A clinical comparison of Brainspotting vs EMDR for PTSD, complex trauma, and dissociation. Head-to-head feature breakdown and subcortical neuroscience.",
+    "image": "/images/brainspotting-vs-emdr.jpg",
     "type": "article"
   },
   {
@@ -46,6 +52,7 @@
     "slug": "emdr-therapy-cost",
     "category": "Mental Health",
     "excerpt": "A comprehensive 2026 breakdown of EMDR therapy costs, CPT billing codes (90837, 90834), insurance coverage tiers, HSA/FSA eligibility, and low-cost sliding scale alternatives.",
+    "image": "/wp-content/uploads/2025/02/emdr-therapy-cost-1024x683.webp",
     "type": "article"
   },
   {
@@ -53,6 +60,7 @@
     "slug": "how-to-self-soothe-anxious-attachment",
     "category": "Mental Health",
     "excerpt": "Feeling panicky when someone does not text back? Here are 4 simple body exercises to calm relationship anxiety and feel secure.",
+    "image": "/wp-content/uploads/2025/01/how-to-self-soothe-anxious-attachment.jpg",
     "type": "article"
   },
   {
@@ -60,6 +68,7 @@
     "slug": "can-low-testosterone-cause-anxiety",
     "category": "Anxiety",
     "excerpt": "Low testosterone can affect both men and women. It may cause changes in mood and behavior. Some people with low testosterone report feeling more anxious. Res...",
+    "image": "/images/low-testosterone-anxiety.jpg",
     "type": "article"
   },
   {
@@ -67,6 +76,7 @@
     "slug": "driving-anxiety-is-ruining-my-life",
     "category": "Anxiety",
     "excerpt": "Does getting behind the wheel make your heart race? Learn 5 simple, calming tricks to stop highway panic attacks and feel safe driving again.",
+    "image": "/images/driving-anxiety.jpg",
     "type": "article"
   },
   {
@@ -74,6 +84,7 @@
     "slug": "emdr-for-anxiety",
     "category": "Anxiety",
     "excerpt": "Can eye movement therapy actually calm anxiety and panic? Here is an easy-to-understand breakdown of how EMDR works and what happens in a session.",
+    "image": "/images/emdr-for-anxiety.jpg",
     "type": "article"
   },
   {
@@ -81,6 +92,7 @@
     "slug": "mental-health-reminders",
     "category": "Mental Health",
     "excerpt": "When you are feeling overwhelmed, anxious, or burned out, read these 10 simple reminders to help reset your mind and take a breath.",
+    "image": "/images/morning-routine-anxiety.jpg",
     "type": "article"
   },
   {
@@ -88,6 +100,7 @@
     "slug": "best-morning-routine-to-prevent-anxiety",
     "category": "Anxiety",
     "excerpt": "Waking up with a racing heart and dread? Try this simple 5-step morning routine to calm your body before the stress takes over.",
+    "image": "/images/morning-routine-anxiety.jpg",
     "type": "article"
   },
   {
@@ -95,6 +108,7 @@
     "slug": "mental-health-day",
     "category": "Mental Health",
     "excerpt": "Recognize when you need a mental health day, how to communicate professionally with your employer, and how to spend the day recovering.",
+    "image": "/images/mental-health-day.jpg",
     "type": "article"
   },
   {
@@ -102,6 +116,7 @@
     "slug": "mens-mental-health-month",
     "category": "Mental Health",
     "excerpt": "Men's Mental Health Month shines a light on an often overlooked issue. Many men struggle with mental health problems but don't seek help. This special month ...",
+    "image": "/images/mens-mental-health.jpg",
     "type": "article"
   },
   {
@@ -109,6 +124,7 @@
     "slug": "ketamine-for-anxiety",
     "category": "Mental Health",
     "excerpt": "An evidence-based clinical guide to ketamine therapy for severe anxiety, PTSD, and treatment-resistant depression, detailing IV vs oral protocols, costs, neurobiology, and integration.",
+    "image": "/wp-content/uploads/2025/01/ketamine-for-anxiety.jpg",
     "type": "article"
   },
   {
@@ -116,6 +132,7 @@
     "slug": "what-is-depression",
     "category": "Depression",
     "excerpt": "Depression is more than just feeling sad. Learn about the common signs, what causes it in the body, and simple ways to start getting help.",
+    "image": "/wp-content/uploads/2021/06/5270-1.jpeg",
     "type": "article"
   },
   {
@@ -123,6 +140,7 @@
     "slug": "signs-of-depression",
     "category": "Depression",
     "excerpt": "Are you feeling constantly tired, numb, or overwhelmed? Here are 9 quiet signs of depression and how to tell when it is time to get help.",
+    "image": "/wp-content/uploads/2021/06/medical-health-logo-template-icon-illustration-set-cross-heart-round-shape-1.jpeg",
     "type": "article"
   },
   {
@@ -130,6 +148,7 @@
     "slug": "types-of-depression",
     "category": "Depression",
     "excerpt": "From seasonal blues to high-functioning depression, learn about the different types of depression and the best ways to treat each one.",
+    "image": "/wp-content/uploads/2021/06/type-of-depression-1.jpeg",
     "type": "article"
   },
   {
@@ -137,6 +156,7 @@
     "slug": "depression-treatments",
     "category": "Depression",
     "excerpt": "Therapy, simple daily changes, or medication? Here is a clear, straightforward guide to the most effective ways to treat depression.",
+    "image": "/wp-content/uploads/2021/06/treatments-for-depression.jpeg",
     "type": "article"
   },
   {
@@ -144,6 +164,7 @@
     "slug": "depression-causes",
     "category": "Depression",
     "excerpt": "Why do we get depressed? An easy breakdown of brain chemicals, genetics, life stress, and trauma triggers without the medical jargon.",
+    "image": "/wp-content/uploads/2021/06/Tired-man-sleeping-on-laptop-keyboard.jpeg",
     "type": "article"
   },
   {
@@ -151,6 +172,7 @@
     "slug": "betterhelp",
     "category": "Therapy & Resources",
     "excerpt": "An honest 2026 BetterHelp review breaking down real monthly costs, therapist qualifications, live sessions vs messaging, and 3 critical downsides to know before paying.",
+    "image": "/images/betterhelp-review.jpg",
     "type": "article"
   },
   {
@@ -158,6 +180,7 @@
     "slug": "things-mentally-strong-people-do",
     "category": "Mental Health",
     "excerpt": "Discover 13 evidence-based psychological habits that build emotional resilience, stop rumination, and cultivate lasting mental strength.",
+    "image": "/wp-content/uploads/2020/12/concentrated-girl-doing-her-stretches-min.jpg",
     "type": "article"
   },
   {
@@ -165,6 +188,7 @@
     "slug": "emdr-hangover",
     "category": "Mental Health",
     "excerpt": "Why you feel exhausted, nauseous, tearful, or anxious after EMDR trauma reprocessing, explaining the neurobiological mechanisms and a 5-step post-session recovery protocol.",
+    "image": "/images/emdr-hangover.jpg",
     "type": "article"
   },
   {
@@ -172,6 +196,7 @@
     "slug": "somatic-shaking-for-anxiety",
     "category": "Mental Health",
     "excerpt": "A clinical guide to somatic shaking therapy and neurogenic tremors for discharging autonomic anxiety, downregulating the polyvagal dorsal vagal state, and resetting the nervous system.",
+    "image": "/images/somatic-shaking.jpg",
     "type": "article"
   }
 ]
