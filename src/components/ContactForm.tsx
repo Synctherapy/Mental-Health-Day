@@ -10,10 +10,16 @@ export default function ContactForm() {
     email: '',
     subject: '',
     message: '',
+    honeypot: '',
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    // Silent drop if bot fills out hidden honeypot
+    if (formData.honeypot) {
+      setSubmitted(true);
+      return;
+    }
     if (formData.name && formData.email && formData.message) {
       setSubmitted(true);
     }
@@ -42,6 +48,18 @@ export default function ContactForm() {
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-4">
+          {/* Anti-spam honeypot (hidden from human visitors) */}
+          <div className="hidden" aria-hidden="true">
+            <input
+              type="text"
+              name="company_website_url_check"
+              tabIndex={-1}
+              autoComplete="off"
+              value={formData.honeypot}
+              onChange={(e) => setFormData({ ...formData, honeypot: e.target.value })}
+            />
+          </div>
+
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <label className="block text-xs font-semibold text-slate-700 uppercase tracking-wider mb-1.5">
