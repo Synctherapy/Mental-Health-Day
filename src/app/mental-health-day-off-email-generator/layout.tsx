@@ -14,6 +14,30 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'Mental Health Day Off Email Generator',
+  url: 'https://mentalhealthday.org/mental-health-day-off-email-generator',
+  description: 'Generate a professional, guilt-free mental health day-off email in 10 seconds. Choose your tone, customize your details, and copy your script instantly.',
+  applicationCategory: 'BusinessApplication',
+  operatingSystem: 'All',
+  browserRequirements: 'Requires JavaScript. Requires HTML5.',
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'USD',
+  },
+};
+
 export default function Layout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      {children}
+    </>
+  );
 }

@@ -157,6 +157,7 @@ export default function HomePage() {
                   src="/wp-content/uploads/2021/01/anxiety-cutout-retina.png"
                   alt="Anxiety condition guide"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 380px"
                   className="object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -175,6 +176,7 @@ export default function HomePage() {
                   src="/wp-content/uploads/2021/01/depression-cutout-retina.png"
                   alt="Depression condition guide"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 380px"
                   className="object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -193,6 +195,7 @@ export default function HomePage() {
                   src="/wp-content/uploads/2021/01/adhd-cutout-retina.png"
                   alt="ADHD condition guide"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 380px"
                   className="object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -246,6 +249,7 @@ export default function HomePage() {
                   src="/wp-content/uploads/2021/01/green-jumper-story-retina.jpg"
                   alt="Man pointing and smiling at mental health day org"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 600px"
                   className="object-cover"
                 />
               </div>
@@ -342,6 +346,7 @@ export default function HomePage() {
               src="/wp-content/uploads/2020/12/horticulture-greenhouse-video-thumbnail-1-1024x684.jpg"
               alt="Mental health day brain health greenhouse"
               fill
+              sizes="(max-width: 1024px) 100vw, 1200px"
               className="object-cover opacity-90 group-hover:scale-102 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
