@@ -2,8 +2,9 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { Search, X, BookOpen, Sparkles, PhoneCall, ArrowRight, Activity, FileText } from 'lucide-react';
+import { Search, X, Sparkles, PhoneCall, ArrowRight, Activity, FileText } from 'lucide-react';
 import postsData from '@/data/posts.json';
+import { Post } from '@/types';
 
 interface SearchItem {
   title: string;
@@ -107,7 +108,7 @@ export default function SearchModal({ isOpen, onClose }: { isOpen: boolean; onCl
 
   if (!isOpen) return null;
 
-  const postItems: SearchItem[] = (postsData as any[]).map((p) => ({
+  const postItems: SearchItem[] = (postsData as unknown as Post[]).map((p) => ({
     title: p.title,
     slug: p.slug,
     category: p.category || 'Article',

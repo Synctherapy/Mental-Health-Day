@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Menu, X, Search, Sparkles, PhoneCall, Calendar } from 'lucide-react';
+import { Menu, X, Search, PhoneCall } from 'lucide-react';
 import SearchModal from '@/components/SearchModal';
 
 const navLinks = [
