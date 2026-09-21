@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {};
   }
 
-  const cleanTitle = `${post.title} [2026 Guide]`;
+  const cleanTitle = post.title;
 
   return {
     title: cleanTitle,
