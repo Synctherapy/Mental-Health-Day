@@ -43,7 +43,7 @@ export default function PostCard({ post, featured = false }: PostCardProps) {
             </span>
           </div>
           <h3 className="text-lg font-bold text-[#181E19] group-hover:text-[#56B259] transition-colors leading-snug mb-2 line-clamp-2">
-            <Link href={} className="focus:outline-none">
+            <Link href={`/${post.slug}`} className="focus:outline-none">
               {post.title}
             </Link>
           </h3>
@@ -55,7 +55,7 @@ export default function PostCard({ post, featured = false }: PostCardProps) {
         <div className="pt-2 border-t border-[#E8ECE8] flex items-center justify-between">
           <span className="text-xs text-[#7A8A7B] font-medium">By {post.author}</span>
           <Link
-            href={}
+            href={`/${post.slug}`}
             className="text-xs font-bold text-[#56B259] group-hover:underline flex items-center gap-1"
           >
             <span>Read More</span>
