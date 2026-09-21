@@ -180,19 +180,34 @@ export default function SearchModal({ isOpen, onClose }: { isOpen: boolean; onCl
               <p className="text-xs text-slate-400 mt-1">Try searching for anxiety, trauma, EMDR, email generator, or screening.</p>
             </div>
           ) : (
-            filtered.map((item) => (
-              <Link
-                key={item.slug}
-                href={}
-                onClick={onClose}
-                className="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 group transition-colors"
-              >
-                <div className={}>
-                  {item.type === 'tool' ? <Sparkles className="w-4 h-4" /> :
-                   item.type === 'crisis' ? <PhoneCall className="w-4 h-4" /> :
-                   item.type === 'condition' ? <Activity className="w-4 h-4" /> :
-                   <FileText className="w-4 h-4" />}
-                </div>
+            filtered.map((item) => {
+              const bgClass =
+                item.type === 'tool'
+                  ? 'bg-emerald-50 text-[#56B259]'
+                  : item.type === 'crisis'
+                  ? 'bg-rose-50 text-rose-600'
+                  : item.type === 'condition'
+                  ? 'bg-blue-50 text-blue-600'
+                  : 'bg-slate-100 text-slate-600';
+
+              return (
+                <Link
+                  key={item.slug}
+                  href={`/${item.slug}`}
+                  onClick={onClose}
+                  className="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 group transition-colors"
+                >
+                  <div className={`p-2 rounded-lg shrink-0 mt-0.5 ${bgClass}`}>
+                    {item.type === 'tool' ? (
+                      <Sparkles className="w-4 h-4" />
+                    ) : item.type === 'crisis' ? (
+                      <PhoneCall className="w-4 h-4" />
+                    ) : item.type === 'condition' ? (
+                      <Activity className="w-4 h-4" />
+                    ) : (
+                      <FileText className="w-4 h-4" />
+                    )}
+                  </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2">
                     <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">
@@ -206,9 +221,10 @@ export default function SearchModal({ isOpen, onClose }: { isOpen: boolean; onCl
                     {item.excerpt}
                   </p>
                 </div>
-                <ArrowRight className="w-4 h-4 text-slate-300 group-hover:text-[#56B259] group-hover:translate-x-1 transition-all shrink-0 self-center" />
-              </Link>
-            ))
+                  <ArrowRight className="w-4 h-4 text-slate-300 group-hover:text-[#56B259] group-hover:translate-x-1 transition-all shrink-0 self-center" />
+                </Link>
+              );
+            })
           )}
         </div>
 
