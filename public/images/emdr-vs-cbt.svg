@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-emdr-vs-cbt.svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2030" />
+      <stop offset="50%" stop-color="#18344E" />
+      <stop offset="100%" stop-color="#0F2030" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg-emdr-vs-cbt.svg)" />
+  <circle cx="1050" cy="150" r="350" fill="#38BDF8" opacity="0.08" />
+  <circle cx="150" cy="500" r="250" fill="#38BDF8" opacity="0.05" />
+  
+  <rect x="80" y="80" width="1040" height="470" rx="24" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1.5" />
+  
+  <!-- Pill Tag -->
+  <rect x="130" y="130" width="320" height="42" rx="21" fill="#56B259" />
+  <text x="290" y="157" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" text-anchor="middle" letter-spacing="1.5">THERAPY MODALITY COMPARISON</text>
+  
+  <!-- Main Title -->
+  <text x="130" y="245" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="900">EMDR vs CBT:</text>
+  <text x="130" y="305" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="900">Which Works Better for Trauma?</text>
+  
+  <!-- Subtitle -->
+  <text x="130" y="370" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400">Cognitive restructuring vs bilateral somatic processing, session counts & speed.</text>
+  
+  <!-- Brand Footer -->
+  <line x1="130" y1="460" x2="1070" y2="460" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1.5" />
+  <text x="130" y="496" fill="#56B259" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="800">mentalhealthday.org</text>
+  <text x="340" y="496" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="500">• Evidence-Based Clinical Guides & Tools</text>
+</svg>

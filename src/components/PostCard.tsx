@@ -10,11 +10,13 @@ interface PostCardProps {
 }
 
 export default function PostCard({ post, featured = false }: PostCardProps) {
+  const imageSrc = post.image || '/images/first-emdr-session.webp';
+
   return (
     <article className="group bg-white rounded-2xl overflow-hidden border border-[#E8ECE8] shadow-2xs hover:shadow-md hover:border-[#56B259] transition-all duration-300 flex flex-col h-full">
-      <div className="relative h-48 sm:h-52 w-full bg-slate-100 overflow-hidden">
+      <div className="relative h-48 sm:h-52 w-full bg-slate-900 overflow-hidden">
         <Image
-          src={post.image || '/logo.png'}
+          src={imageSrc}
           alt={post.title}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -41,7 +43,7 @@ export default function PostCard({ post, featured = false }: PostCardProps) {
             </span>
           </div>
           <h3 className="text-lg font-bold text-[#181E19] group-hover:text-[#56B259] transition-colors leading-snug mb-2 line-clamp-2">
-            <Link href={`/${post.slug}`} className="focus:outline-none">
+            <Link href={} className="focus:outline-none">
               {post.title}
             </Link>
           </h3>
@@ -53,7 +55,7 @@ export default function PostCard({ post, featured = false }: PostCardProps) {
         <div className="pt-2 border-t border-[#E8ECE8] flex items-center justify-between">
           <span className="text-xs text-[#7A8A7B] font-medium">By {post.author}</span>
           <Link
-            href={`/${post.slug}`}
+            href={}
             className="text-xs font-bold text-[#56B259] group-hover:underline flex items-center gap-1"
           >
             <span>Read More</span>

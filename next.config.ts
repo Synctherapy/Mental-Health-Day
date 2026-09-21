@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from next;
 
 const nextConfig: NextConfig = {
   images: {
@@ -6,7 +6,41 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      // 301 Redirects for quotes & activities canonical URLs
+      {
+        source: '/tools',
+        destination: '/mental-health-day-off-email-generator',
+        permanent: true,
+      },
+      {
+        source: '/home',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/contact',
+        destination: '/contact-us',
+        permanent: true,
+      },
+      {
+        source: '/privacy',
+        destination: '/privacy-notice',
+        permanent: true,
+      },
+      {
+        source: '/terms',
+        destination: '/terms-and-conditions',
+        permanent: true,
+      },
+      {
+        source: '/generator',
+        destination: '/mental-health-day-off-email-generator',
+        permanent: true,
+      },
+      {
+        source: '/email-generator',
+        destination: '/mental-health-day-off-email-generator',
+        permanent: true,
+      },
       {
         source: '/best-mental-health-quotes',
         destination: '/mental-health-quotes',
@@ -22,7 +56,6 @@ const nextConfig: NextConfig = {
         destination: '/mental-health-activities',
         permanent: true,
       },
-      // WooCommerce legacy redirects
       {
         source: '/shop',
         destination: '/',
@@ -43,7 +76,6 @@ const nextConfig: NextConfig = {
         destination: '/',
         permanent: true,
       },
-      // Topical Pruning & Consolidation Redirects
       {
         source: '/why-is-my-wife-yelling-at-me',
         destination: '/conditions',

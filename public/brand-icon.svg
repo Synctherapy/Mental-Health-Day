@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="mhd-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#56B259" />
+      <stop offset="100%" stop-color="#22C55E" />
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="12" fill="url(#mhd-grad)" />
+  <!-- Mental Health Ribbon & Bloom Leaf Motif -->
+  <path d="M24 10C20.134 10 17 13.134 17 17C17 19.8 18.6 22.2 21 23.3L15.5 35C15.1 35.8 15.6 37 16.5 37C17 37 17.5 36.7 17.8 36.2L24 25.5L30.2 36.2C30.5 36.7 31 37 31.5 37C32.4 37 32.9 35.8 32.5 35L27 23.3C29.4 22.2 31 19.8 31 17C31 13.134 27.866 10 24 10ZM24 14C25.657 14 27 15.343 27 17C27 18.657 25.657 20 24 20C22.343 20 21 18.657 21 17C21 15.343 22.343 14 24 14Z" fill="white" />
+  <circle cx="24" cy="17" r="2" fill="#D1FAE5" />
+</svg>

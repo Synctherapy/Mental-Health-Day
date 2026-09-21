@@ -1,7 +1,9 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowUpRight, Sparkles, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
+import { ArrowUpRight, Sparkles, MapPin, Instagram, Facebook, Twitter, PhoneCall } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -12,15 +14,21 @@ export default function Footer() {
           {/* Col 1: Brand & Mission */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-lg bg-[#56B259] flex items-center justify-center text-white font-bold overflow-hidden shadow-sm">
-                <Image src="/logo.svg" alt="Mental Health Day" width={36} height={36} className="object-contain p-1" />
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#56B259] to-[#22C55E] flex items-center justify-center text-white font-bold overflow-hidden shadow-sm p-1.5">
+                <Image src="/brand-icon.svg" alt="Mental Health Day Logo" width={40} height={40} className="w-full h-full object-contain" />
               </div>
-              <span className="font-bold text-xl text-white tracking-tight">
-                mentalhealthday.org
-              </span>
+              <div className="flex flex-col">
+                <div className="font-extrabold text-xl text-white tracking-tight leading-tight flex items-center">
+                  <span>mentalhealthday</span>
+                  <span className="text-[#56B259]">.org</span>
+                </div>
+                <span className="text-[11px] text-slate-400 font-medium tracking-wide">
+                  Small steps. Big leaps.
+                </span>
+              </div>
             </Link>
             <p className="text-sm text-[#A0ACA0] leading-relaxed max-w-sm">
-              At mentalhealthday.org you'll find a holistic approach to mental well-being, weaving together mental, physical, spiritual, emotional, and environmental care. Small steps. Big leaps.
+              At MentalHealthDay.org you'll find a holistic approach to mental well-being, weaving together mental, physical, spiritual, emotional, and workplace care. Small steps. Big leaps.
             </p>
             <div className="flex items-center gap-3 pt-2">
               <a
@@ -67,19 +75,22 @@ export default function Footer() {
                 <Link href="/" className="hover:text-[#56B259] transition-colors">Home</Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-[#56B259] transition-colors">About Us</Link>
+                <Link href="/world-mental-health-day" className="hover:text-[#56B259] transition-colors">Oct 10 Awareness</Link>
               </li>
               <li>
-                <Link href="/conditions" className="hover:text-[#56B259] transition-colors">Conditions Guide</Link>
-              </li>
-              <li>
-                <Link href="/priorities" className="hover:text-[#56B259] transition-colors">Our Priorities</Link>
-              </li>
-              <li>
-                <Link href="/tools" className="hover:text-[#56B259] transition-colors flex items-center gap-1.5 text-[#56B259] font-semibold">
+                <Link href="/mental-health-day-off-email-generator" className="hover:text-[#56B259] transition-colors flex items-center gap-1.5 text-emerald-400 font-semibold">
                   <Sparkles className="w-3.5 h-3.5" />
-                  <span>Wellness Tools</span>
+                  <span>PTO Email Generator</span>
                 </Link>
+              </li>
+              <li>
+                <Link href="/screening" className="hover:text-[#56B259] transition-colors">Self-Screening Tool</Link>
+              </li>
+              <li>
+                <Link href="/mental-health-activities" className="hover:text-[#56B259] transition-colors">Activities & Toolkits</Link>
+              </li>
+              <li>
+                <Link href="/mental-health-quotes" className="hover:text-[#56B259] transition-colors">Inspiring Quotes</Link>
               </li>
               <li>
                 <Link href="/blog" className="hover:text-[#56B259] transition-colors">Mental Health Blog</Link>
@@ -90,23 +101,26 @@ export default function Footer() {
           {/* Col 3: Key Conditions */}
           <div>
             <h4 className="text-white font-bold text-sm tracking-wider uppercase mb-4">
-              Conditions
+              Conditions & Care
             </h4>
             <ul className="space-y-2.5 text-sm">
               <li>
                 <Link href="/conditions" className="hover:text-[#56B259] transition-colors">Anxiety Disorders</Link>
               </li>
               <li>
-                <Link href="/conditions" className="hover:text-[#56B259] transition-colors">Depression & Mood</Link>
-              </li>
-              <li>
-                <Link href="/conditions" className="hover:text-[#56B259] transition-colors">ADHD & Focus</Link>
+                <Link href="/what-is-depression" className="hover:text-[#56B259] transition-colors">Depression & Mood</Link>
               </li>
               <li>
                 <Link href="/emdr-for-anxiety" className="hover:text-[#56B259] transition-colors">EMDR Therapy Guide</Link>
               </li>
               <li>
-                <Link href="/brainspotting-vs-emdr" className="hover:text-[#56B259] transition-colors">Brainspotting vs EMDR</Link>
+                <Link href="/what-happens-in-first-emdr-session" className="hover:text-[#56B259] transition-colors">First EMDR Session</Link>
+              </li>
+              <li>
+                <Link href="/emdr-vs-cbt" className="hover:text-[#56B259] transition-colors">EMDR vs CBT Comparison</Link>
+              </li>
+              <li>
+                <Link href="/betterhelp" className="hover:text-[#56B259] transition-colors">BetterHelp 2026 Review</Link>
               </li>
             </ul>
           </div>
@@ -117,6 +131,12 @@ export default function Footer() {
               Support & Legal
             </h4>
             <ul className="space-y-2.5 text-sm">
+              <li>
+                <Link href="/about" className="hover:text-[#56B259] transition-colors">About Our Mission</Link>
+              </li>
+              <li>
+                <Link href="/priorities" className="hover:text-[#56B259] transition-colors">Clinical Priorities</Link>
+              </li>
               <li>
                 <Link href="/contact-us" className="hover:text-[#56B259] transition-colors">Contact Us</Link>
               </li>
@@ -130,10 +150,10 @@ export default function Footer() {
                 <Link href="/terms-and-conditions" className="hover:text-[#56B259] transition-colors">Terms of Use</Link>
               </li>
               <li>
-                <a href="tel:988" className="text-rose-400 hover:text-rose-300 font-bold flex items-center gap-1">
-                  <span>988 Lifeline (24/7)</span>
-                  <ArrowUpRight className="w-3.5 h-3.5" />
-                </a>
+                <Link href="/helplines" className="text-rose-400 hover:text-rose-300 font-bold flex items-center gap-1.5 mt-2">
+                  <PhoneCall className="w-3.5 h-3.5" />
+                  <span>988 Crisis Lifeline (24/7)</span>
+                </Link>
               </li>
             </ul>
           </div>
