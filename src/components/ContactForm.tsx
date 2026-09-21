@@ -39,7 +39,7 @@ export default function ContactForm() {
           <button
             onClick={() => {
               setSubmitted(false);
-              setFormData({ name: '', email: '', subject: '', message: '' });
+              setFormData({ name: '', email: '', subject: '', message: '', honeypot: '' });
             }}
             className="px-6 py-2.5 bg-teal-600 text-white text-sm font-semibold rounded-xl hover:bg-teal-700 transition-colors"
           >
