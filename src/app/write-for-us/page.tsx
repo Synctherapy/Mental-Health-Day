@@ -183,7 +183,7 @@ export default function WriteForUsPage() {
               You can send article pitches, media kits, or sponsorship inquiries directly to our editorial team:
             </p>
             <div className="p-3 bg-slate-800 rounded-xl font-mono text-xs text-emerald-300 break-all select-all">
-              info@mentalhealthday.org
+              editorial@mentalhealthday.org
             </div>
             <p className="text-[11px] text-slate-400">
               Please use the subject line: <code className="text-white">[Pitch] Your Topic Idea</code> or <code className="text-white">[Partnership] Brand Name</code>.
