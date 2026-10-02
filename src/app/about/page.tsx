@@ -100,6 +100,19 @@ export default function AboutPage() {
           </p>
         </div>
 
+        <div className="relative w-full max-w-4xl mx-auto h-72 sm:h-96 rounded-3xl overflow-hidden shadow-md border border-slate-200">
+          <Image
+            src="/images/clinical-editorial-review-board-psychologists.jpg"
+            alt="Licensed clinical psychologists and mental health researchers reviewing clinical literature and evidence-based standards"
+            fill
+            className="object-cover"
+            sizes="(max-width: 1024px) 100vw, 896px"
+          />
+          <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/80 via-slate-950/40 to-transparent p-4 sm:p-6 text-white text-xs sm:text-sm">
+            <span className="font-semibold text-teal-300">Evidence-Based Editorial Review:</span> Multi-disciplinary mental health professionals verify clinical literature, DSM-5 alignment, and trauma-informed safety across all published guides.
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="p-6 bg-white rounded-2xl border border-slate-200 shadow-xs space-y-3">
             <div className="w-10 h-10 rounded-xl bg-teal-50 text-teal-700 flex items-center justify-center font-bold text-base">

@@ -1,5 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { 
   PenTool, 
   CheckCircle2, 
@@ -35,6 +36,17 @@ export default function WriteForUsPage() {
         <p className="text-slate-600 text-base sm:text-lg leading-relaxed">
           MentalHealthDay.org reaches thousands of readers seeking practical, evidence-based guidance for anxiety, therapy, and emotional wellness. We welcome thoughtful contributions from licensed clinicians, wellness professionals, health journalists, and mission-aligned partners.
         </p>
+
+        <div className="relative w-full max-w-4xl mx-auto h-64 sm:h-80 lg:h-96 rounded-3xl overflow-hidden shadow-md border border-slate-200 mt-6">
+          <Image
+            src="/images/write-for-us-medical-editorial.jpg"
+            alt="A licensed clinical psychologist and medical writer in a sunlit office consulting the DSM-5 and psychiatric journals"
+            fill
+            priority
+            className="object-cover"
+            sizes="(max-width: 1024px) 100vw, 896px"
+          />
+        </div>
       </div>
 
       {/* Key Standards Highlights */}

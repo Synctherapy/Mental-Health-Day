@@ -1,5 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { PhoneCall, MessageSquare, ShieldAlert, HeartHandshake, Flag, Globe, ArrowUpRight } from 'lucide-react';
 
@@ -27,6 +28,18 @@ export default function HelplinesPage() {
           <p className="text-lg text-[#E2EBE2] leading-relaxed max-w-2xl mx-auto">
             If you or someone you know is struggling or in crisis, free and confidential support is available 24/7 across the United States and Canada. You are never alone.
           </p>
+
+          <div className="relative w-full max-w-3xl mx-auto h-64 sm:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 mt-8">
+            <Image
+              src="/images/crisis-helpline-counselor-support.jpg"
+              alt="An empathetic crisis counselor wearing a headset attentively providing compassionate 24/7 mental health support"
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 768px"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#181E19]/80 via-transparent to-transparent pointer-events-none" />
+          </div>
         </div>
       </section>
 

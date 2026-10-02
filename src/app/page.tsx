@@ -149,16 +149,16 @@ export default function HomePage() {
             
             {/* Card 1: Anxiety */}
             <Link
-              href="/conditions"
+              href="/conditions#anxiety"
               className="group bg-[#F8FAF8] rounded-3xl p-8 border border-[#E8ECE8] hover:border-[#56B259] hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center"
             >
-              <div className="relative h-60 w-full mb-4 overflow-hidden">
+              <div className="relative h-60 w-full mb-4 overflow-hidden rounded-2xl bg-slate-100">
                 <Image
-                  src="/wp-content/uploads/2021/01/anxiety-cutout-retina.png"
-                  alt="Anxiety condition guide"
+                  src="/images/anxiety-sensory-grounding.jpg"
+                  alt="Anxiety condition and sensory grounding guide"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 380px"
-                  className="object-contain group-hover:scale-105 transition-transform duration-300"
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-2xl font-bold text-[#181E19] group-hover:text-[#56B259] transition-colors">
@@ -168,16 +168,16 @@ export default function HomePage() {
 
             {/* Card 2: Depression */}
             <Link
-              href="/conditions"
+              href="/conditions#depression"
               className="group bg-[#F8FAF8] rounded-3xl p-8 border border-[#E8ECE8] hover:border-[#56B259] hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center"
             >
-              <div className="relative h-60 w-full mb-4 overflow-hidden">
+              <div className="relative h-60 w-full mb-4 overflow-hidden rounded-2xl bg-slate-100">
                 <Image
-                  src="/wp-content/uploads/2021/01/depression-cutout-retina.png"
-                  alt="Depression condition guide"
+                  src="/images/depression-reflective-recovery.jpg"
+                  alt="Depression recovery and clinical mood guide"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 380px"
-                  className="object-contain group-hover:scale-105 transition-transform duration-300"
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-2xl font-bold text-[#181E19] group-hover:text-[#56B259] transition-colors">
@@ -185,22 +185,22 @@ export default function HomePage() {
               </h3>
             </Link>
 
-            {/* Card 3: ADHD */}
+            {/* Card 3: Trauma & PTSD */}
             <Link
               href="/conditions"
               className="group bg-[#F8FAF8] rounded-3xl p-8 border border-[#E8ECE8] hover:border-[#56B259] hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center"
             >
-              <div className="relative h-60 w-full mb-4 overflow-hidden">
+              <div className="relative h-60 w-full mb-4 overflow-hidden rounded-2xl bg-slate-100">
                 <Image
-                  src="/wp-content/uploads/2021/01/adhd-cutout-retina.png"
-                  alt="ADHD condition guide"
+                  src="/images/trauma-recovery-resilience.jpg"
+                  alt="Trauma, PTSD, and nervous system recovery guide"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 380px"
-                  className="object-contain group-hover:scale-105 transition-transform duration-300"
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <h3 className="text-2xl font-bold text-[#181E19] group-hover:text-[#56B259] transition-colors">
-                ADHD
+                Trauma &amp; PTSD
               </h3>
             </Link>
 
@@ -246,8 +246,8 @@ export default function HomePage() {
             <div className="lg:col-span-6">
               <div className="relative h-[380px] sm:h-[480px] w-full rounded-3xl overflow-hidden shadow-xl border border-[#E8ECE8]">
                 <Image
-                  src="/wp-content/uploads/2021/01/green-jumper-story-retina.jpg"
-                  alt="Man pointing and smiling at mental health day org"
+                  src="/images/mental-health-educator-holistic-story.jpg"
+                  alt="Mental health educator and advocate in a sunlit botanical garden supporting mind and body wellness"
                   fill
                   sizes="(max-width: 1024px) 100vw, 600px"
                   className="object-cover"
@@ -343,8 +343,8 @@ export default function HomePage() {
           {/* Video Container matching original */}
           <div className="relative h-[340px] sm:h-[520px] w-full rounded-3xl overflow-hidden shadow-xl border border-[#E8ECE8] bg-slate-900 group">
             <Image
-              src="/wp-content/uploads/2020/12/horticulture-greenhouse-video-thumbnail-1-1024x684.jpg"
-              alt="Mental health day brain health greenhouse"
+              src="/images/mindful-outdoor-nature-activity.jpg"
+              alt="Mental health day brain health and mindful wellness sanctuary"
               fill
               sizes="(max-width: 1024px) 100vw, 1200px"
               className="object-cover opacity-90 group-hover:scale-102 transition-transform duration-500"

@@ -100,7 +100,14 @@ export default async function BlogPostPage({ params }: Props) {
     headline: post.title,
     description: post.excerpt,
     url: `https://mentalhealthday.org/${post.slug}`,
-    image: `https://mentalhealthday.org${post.image || '/logo.png'}`,
+    image: {
+      '@type': 'ImageObject',
+      url: `https://mentalhealthday.org${post.image || '/logo.png'}`,
+      caption: post.title,
+      width: 1200,
+      height: 675,
+      representativeOfPage: true,
+    },
     datePublished: post.date,
     dateModified: post.modifiedDate || post.date,
     author: {

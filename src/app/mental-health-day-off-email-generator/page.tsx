@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { 
   Sparkles, 
   Copy, 
@@ -109,6 +110,17 @@ export default function MentalHealthDayGeneratorPage() {
           <p className="text-base sm:text-lg text-[#5F695F] max-w-2xl mx-auto leading-relaxed">
             Need to ask your boss or HR for a mental health day without feeling guilty or disclosing private medical details? Use this tool to generate a professional, HIPAA-safe email in seconds.
           </p>
+
+          <div className="relative w-full max-w-2xl mx-auto h-56 sm:h-72 rounded-3xl overflow-hidden shadow-md border border-[#E8ECE8] mt-6">
+            <Image
+              src="/images/mental-health-day-off-rest.jpg"
+              alt="A professional taking a healthy mental health day off from work with a closed laptop and a warm mug by a sunlit window"
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 672px"
+            />
+          </div>
         </div>
 
         {/* Interactive Tool Card */}

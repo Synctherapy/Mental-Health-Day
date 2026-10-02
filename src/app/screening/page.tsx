@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { Sparkles, CheckCircle2, RotateCcw, ArrowRight, Printer, AlertTriangle, ShieldCheck } from 'lucide-react';
 import Link from 'next/link';
 
@@ -89,6 +90,18 @@ export default function ScreeningPage() {
           <p className="text-lg text-[#E2EBE2] leading-relaxed max-w-2xl mx-auto">
             Take standard clinical screening questionnaires used worldwide by doctors and psychologists (PHQ-9 for Depression, GAD-7 for Anxiety). All calculations occur on your device; no data is ever saved or shared.
           </p>
+
+          <div className="relative w-full max-w-3xl mx-auto h-64 sm:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 mt-8">
+            <Image
+              src="/images/clinical-mental-health-screening-assessment.jpg"
+              alt="An adult thoughtfully completing a confidential clinical mental health assessment on a tablet at home"
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 768px"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#181E19]/80 via-transparent to-transparent pointer-events-none" />
+          </div>
         </div>
       </section>
 

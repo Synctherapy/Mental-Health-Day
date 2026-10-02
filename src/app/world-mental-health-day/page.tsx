@@ -30,6 +30,18 @@ export default function WorldMentalHealthDayPage() {
           <p className="text-lg text-[#E2EBE2] leading-relaxed max-w-2xl mx-auto">
             World Mental Health Day is an international day for global mental health education, awareness, and advocacy against social stigma. Explore actionable activities for teams, schools, and individuals.
           </p>
+
+          <div className="relative w-full max-w-4xl mx-auto h-64 sm:h-80 lg:h-96 rounded-3xl overflow-hidden shadow-2xl border border-white/10 mt-8">
+            <Image
+              src="/images/world-mental-health-day-community.jpg"
+              alt="A diverse group of community members gathering outdoors wearing green mental health ribbons on World Mental Health Day"
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 896px"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#181E19]/80 via-transparent to-transparent pointer-events-none" />
+          </div>
         </div>
       </section>
 

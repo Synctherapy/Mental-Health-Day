@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { 
   Building2, 
@@ -420,6 +421,18 @@ export default function MentalHealthActivitiesPage() {
           <p className="text-lg text-[#E2EBE2] leading-relaxed max-w-3xl mx-auto">
             Practical, zero-cost, and step-by-step initiatives for corporate teams, remote workers, teachers, and individuals to observe World Mental Health Day on October 10 and year-round.
           </p>
+
+          <div className="relative w-full max-w-4xl mx-auto h-64 sm:h-80 lg:h-96 rounded-3xl overflow-hidden shadow-2xl border border-white/10 mt-8">
+            <Image
+              src="/images/mindful-outdoor-nature-activity.jpg"
+              alt="An adult practicing sensory grounding and mindful nature immersion by touching a forest tree trunk on a quiet trail"
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 896px"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#181E19]/80 via-transparent to-transparent pointer-events-none" />
+          </div>
         </div>
       </section>
 

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { 
   Quote, 
@@ -186,6 +187,18 @@ export default function MentalHealthQuotesPage() {
             <span>Reviewed by: MentalHealthDay.org Editorial Board</span>
             <span>•</span>
             <span>Free to share & cite</span>
+          </div>
+
+          <div className="relative w-full max-w-4xl mx-auto h-64 sm:h-80 lg:h-96 rounded-3xl overflow-hidden shadow-2xl border border-white/10 mt-8">
+            <Image
+              src="/images/mental-health-quotes-reflective.jpg"
+              alt="An adult enjoying a quiet, restorative moment reading an inspiring book in natural morning window light"
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 896px"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#181E19]/80 via-transparent to-transparent pointer-events-none" />
           </div>
         </div>
       </section>

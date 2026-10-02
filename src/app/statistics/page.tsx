@@ -1,5 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { 
   BarChart3, 
@@ -291,6 +292,18 @@ export default function StatisticsPage() {
             <span>Last Updated: January 2026</span>
             <span>•</span>
             <span>Reviewed by: MentalHealthDay.org Editorial Board</span>
+          </div>
+
+          <div className="relative w-full max-w-4xl mx-auto h-64 sm:h-80 lg:h-96 rounded-3xl overflow-hidden shadow-2xl border border-white/10 mt-8">
+            <Image
+              src="/images/epidemiological-mental-health-statistics.jpg"
+              alt="An epidemiological mental health researcher in an academic office analyzing published World Health Organization statistics and clinical health trends"
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 896px"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#181E19]/80 via-transparent to-transparent pointer-events-none" />
           </div>
         </div>
       </section>

@@ -49,11 +49,12 @@ export default function PrioritiesPage() {
             </div>
           </div>
 
-          <div className="md:col-span-5 relative h-72 sm:h-80 w-full rounded-2xl overflow-hidden bg-slate-100 shadow-inner">
+          <div className="md:col-span-5 relative h-72 sm:h-80 w-full rounded-2xl overflow-hidden bg-slate-100 shadow-md">
             <Image
-              src="/wp-content/uploads/2020/08/woman-portrait-quote.png"
-              alt="Mental Health is Health"
+              src="/images/mental-health-parity-advocate-portrait.jpg"
+              alt="Licensed clinical psychologist and mental health parity advocate reviewing neuroscience research"
               fill
+              sizes="(max-width: 768px) 100vw, 420px"
               className="object-cover"
             />
           </div>

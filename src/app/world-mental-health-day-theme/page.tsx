@@ -1,5 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Calendar, Sparkles, Globe, History, ArrowRight } from 'lucide-react';
 import Newsletter from '@/components/Newsletter';
@@ -48,6 +49,18 @@ export default function ThemePage() {
           <p className="text-lg text-[#E2EBE2] leading-relaxed max-w-3xl mx-auto">
             Every year on October 10, the World Federation for Mental Health (WFMH) designates a global theme to unify international advocacy and government policy.
           </p>
+
+          <div className="relative w-full max-w-4xl mx-auto h-64 sm:h-80 lg:h-96 rounded-3xl overflow-hidden shadow-2xl border border-white/10 mt-8">
+            <Image
+              src="/images/world-mental-health-day-community.jpg"
+              alt="Diverse community members wearing green mental health ribbons gathering for World Mental Health Day"
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 896px"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#181E19]/80 via-transparent to-transparent pointer-events-none" />
+          </div>
         </div>
       </section>
 
